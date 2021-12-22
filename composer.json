@@ -1,18 +1,13 @@
 {
-    "name": "tianmiao/access-check",
-    "description": "Leonsw Access Check",
+    "name": "tianmiao2/access-check",
+    "description": "Tianmiao Access Check",
     "homepage": "https://tianmiao.com",
     "require": {
         "tianmiao/http-client": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "Leonsw\\AccessCheck\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "LeonswTests\\AccessCheck\\": "tests"
+            "Tianmiao\\AccessCheck\\": "src"
         }
     }
 }
