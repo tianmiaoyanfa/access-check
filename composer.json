@@ -3,7 +3,7 @@
     "description": "Tianmiao Access Check",
     "homepage": "https://tianmiao.com",
     "require": {
-        "tianmiao/http-client": "^1.0"
+        "tianmiao2/http-client": "^1.3"
     },
     "autoload": {
         "psr-4": {
