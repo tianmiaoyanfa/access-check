@@ -24,7 +24,6 @@ class LaravelMiddleware
 
     public function handle(Request $request, Closure $next)
     {
-var_dump($this->getToken($request));die;
         $service = app('access-check-service');
         /* @var Browser $service */
         $data = $this->collector($request);
